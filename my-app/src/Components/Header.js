@@ -1,4 +1,4 @@
-import Style from "../StylePage/Header.module.css";
+import Style from "../StylePage/Header.module.scss";
 import Logo from "../files/Travello.svg";
 import Arrow from "../files/ArrowRightHeader.svg";
 

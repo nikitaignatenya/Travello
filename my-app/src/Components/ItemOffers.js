@@ -1,4 +1,4 @@
-import Style from "../StylePage/ItemOffers.module.css";
+import Style from "../StylePage/ItemOffers.module.scss";
 
 function ItemOffers({ el }) {
   return (

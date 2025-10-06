@@ -1,4 +1,4 @@
-import Style from "../StylePage/TopDestinations.module.css";
+import Style from "../StylePage/TopDestinations.module.scss";
 function TopDestinations({ el }) {
   return (
     <div className={Style.cartElement}>

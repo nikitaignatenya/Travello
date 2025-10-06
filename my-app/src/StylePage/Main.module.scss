@@ -1,6 +1,7 @@
 .main {
   margin-top: 173px;
   width: 100%;
+  margin-left: 50px;
   & .secondSection {
     max-width: 1568px;
     margin: 0px auto;
@@ -65,6 +66,37 @@
       display: flex;
       align-items: flex-start;
       justify-content: space-between;
+    }
+  }
+  .fourthSection {
+    width: 1458px;
+    margin: auto;
+    display: flex;
+    align-items: flex-end;
+    justify-content: space-between;
+    .nextTripContainerLeft {
+      max-width: 680px;
+      display: flex;
+      flex-direction: column;
+      justify-content: flex-start;
+      .easyText {
+        font-family: Poppins;
+        font-weight: 600;
+        font-size: 23.94px;
+      }
+      .titleText {
+        margin-top: 42px;
+        font-family: Volkhov;
+        font-weight: 700;
+        font-size: 66.51px;
+        text-transform: capitalize;
+      }
+      .cartsContainer {
+        margin-top: 42px;
+        display: flex;
+        flex-direction: column;
+        gap: 65px;
+      }
     }
   }
 }
