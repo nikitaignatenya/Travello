@@ -20,7 +20,7 @@ function TopDestinations_Props() {
       info: "12 Days Trip",
     },
     {
-      src: Europe_Image,
+      src: London_Image,
       title: "Full Europe",
       price: "$15k",
       arrowSrc: ArrowGeo,
