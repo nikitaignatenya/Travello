@@ -1,0 +1,31 @@
+.element {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  max-width: 355px;
+  & img {
+    width: 122px;
+    height: 104px;
+    background-size: contain;
+  }
+  & h4 {
+    font-family: Open Sans;
+    font-weight: 600;
+    font-size: 26.6px;
+    text-align: center;
+    color: #1e1d4c;
+    margin: 39px 0px 0px;
+  }
+  & .descInfo {
+    font-family: Poppins;
+    font-weight: 500;
+    font-size: 21.28px;
+    line-height: 34.58px;
+    text-align: center;
+    color: #5e6282;
+
+    max-width: 240px;
+    margin-top: 20px;
+  }
+}

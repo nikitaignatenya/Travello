@@ -1,0 +1,70 @@
+.main {
+  margin-top: 173px;
+  width: 100%;
+  & .secondSection {
+    max-width: 1568px;
+    margin: 0px auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    & .SecondSectionCategory {
+      font-family: Poppins;
+      font-weight: 600;
+      font-size: 23.94px;
+      text-align: center;
+      color: #5e6282;
+    }
+    & h1 {
+      margin-top: 13px;
+      font-family: Volkhov;
+      font-weight: 700;
+      font-size: 66.51px;
+      text-align: center;
+      text-transform: capitalize;
+      color: #14183e;
+    }
+    & .infoElements {
+      margin-top: 90px;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      width: 100%;
+    }
+  }
+  & .thirdSection {
+    padding-bottom: 160px;
+    max-width: 1450px;
+    margin: auto;
+    margin-top: 210px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+    & :nth-child(1) {
+      font-family: Poppins;
+      font-weight: 600;
+      font-size: 23.94px;
+      text-align: center;
+      color: #5e6282;
+    }
+
+    & :nth-child(2) {
+      font-family: Volkhov;
+      font-weight: 700;
+      font-size: 66.51px;
+      text-align: center;
+      text-transform: capitalize;
+      color: #14183e;
+    }
+
+    & .mainCartElements {
+      width: 100%;
+      margin-top: 81px;
+
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+    }
+  }
+}
